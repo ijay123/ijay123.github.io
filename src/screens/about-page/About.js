@@ -8,8 +8,8 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 const About = () => {
   return (
     <div
-      className=" pt-[250px] flex justify-center text-white h-[100vh] w-[100%] gap-[150px] px-[60px] relative z-[10]"
-      id="#ab"
+      className="pt-[250px] flex justify-center text-white h-[100vh] w-[100%] gap-[150px] px-[60px] relative z-[10] bg-black"
+      id="about"
     >
       <div className="">
         <p className="text-[30px] pb-[40px]">My Skills</p>

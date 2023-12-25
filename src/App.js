@@ -1,10 +1,10 @@
 import "./App.css";
-import Rout from "./router/Rout";
+import Navigation from "./components/navigation/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <Rout />
+      <Navigation />
     </div>
   );
 }

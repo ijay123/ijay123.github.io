@@ -1,14 +1,12 @@
 import React from "react";
-import About from "../about-page/About";
-import Contact from "../contact-page/Contact";
-import Projects from "../projects-page/Projects";
+
 import Snowfall from "react-snowfall";
 import Typewriter from "typewriter-effect";
-import { Link } from "react-router-dom";
+
 
 const LandingPage = () => {
   return (
-    <div className="bg-black relative z-[-1]">
+    <div className="bg-black relative z-[-1]" id="home">
       <Snowfall color="orange" snowflakeCount={60} />
       <Snowfall color="blue" snowflakeCount={60} />
       <Snowfall color="red" snowflakeCount={60} />
@@ -40,29 +38,16 @@ const LandingPage = () => {
               />
             </span>
           </p>
-          <p></p>
         </div>
 
         <div className=" flex flex-col gap-[35px]">
           <img src="/images/facebook.png" alt="" className="" />
-          <Link to={"/about"}>
-          <p className="text-white">click me</p>
-          </Link>
           <img src="/images/linkedin.png" alt="" />
           <img src="/images/instagram.png" alt="" />
           <img src="/images/twitter.png" alt="" />
         </div>
       </div>
-      <div id="ab">
-        <About />
-      </div>
-      <div id="ac">
-        <Projects />
-      </div>
-
-      <div id="ad">
-        <Contact />
-      </div>
+    
     </div>
   );
 };
