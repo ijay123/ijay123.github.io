@@ -6,22 +6,22 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   // const navigate = useNavigate()
   return (
-    <div className="text-white relative z-[10] bg-black" id="projects">
+    <div className="text-white relative flex flex-col items-center justify-center z-[10] bg-[#343D68] h-[50vw]" id="projects">
       <p className="text-center mb-[60px] text-[40px]">My Projects</p>
 
       <div className="flex justify-center gap-[70px]">
         {projectData.map((project, id) => (
-          <div className="" key={id}>
-            <p className=" w-[250px] h-[200px] border bg-black opacity-[0.9] cursor-pointer">
-              <img src={project.bg_img} alt="" className="p-[20px]" />
+          <div className="border bg-[#262C4D]" key={id}>
+            <p className=" w-[250px] h-[200px] border-[#0D54BE] bg-black opacity-[0.9] cursor-pointer">
+              <img src={project.bg_img} alt="" className="bg-cover w-[100%] h-[100%]" />
             </p>
-            <p>{project.title}</p>
+            <p className="p-[15px]">{project.title}</p>
             <p>{project.description}</p>
-            <Link to={"/ecommerce"}>
-              <button className="bg-[#007DFC] px-[30px] py-[10px] ">
+            <a href={project.url}>
+              <button className="bg-[#007DFC] px-[30px] py-[10px] flex justify-center rounded-[4px] items-center m-auto mb-[10px]">
                 More
               </button>
-            </Link>
+            </a>
           </div>
         ))}
       </div>

@@ -4,8 +4,9 @@ const projectData = [
     image: "",
     title: "Ecommerce",
     description: "",
-    bg_img: "/images/iphone.png",
-    bg: "transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+    bg_img: "/images/ecommerce.png",
+    bg: "transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300",
+    url: ""
   },
 
   {
@@ -13,24 +14,27 @@ const projectData = [
     image: "",
     title: "Colorlib landing-page",
     description: "",
-    bg_img: "",
-    bg: ""
+    bg_img: "/images/colorlib.png",
+    bg: "",
+    url: "https://colorlib-landingpage.onrender.com"
   },
   {
     id: 3,
     image: "",
     title: "Paystack landing-page",
     description: "",
-    bg_img: "",
-    bg: ""
+    bg_img: "/images/paystack.png",
+    bg: "",
+    url: "https://paystack-landingpage.onrender.com"
   },
   {
     id: 4,
     image: "",
-    title: "LearnExplore(Group Work)",
+    title: "Expense-Tracker(full-stack)",
     description: "",
     bg_img: "",
-    bg: ""
+    bg: "",
+    url: ""
   },
 ];
 

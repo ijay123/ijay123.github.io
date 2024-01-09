@@ -8,7 +8,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 const About = () => {
   return (
     <div
-      className="pt-[250px] flex justify-center text-white h-[100vh] w-[100%] gap-[150px] px-[60px] relative z-[10] bg-black"
+      className="pt-[250px] flex justify-center h-[100vh] w-[100%] gap-[300px] px-[60px] relative z-[10] bg-[#F7F6FB]"
       id="about"
     >
       <div className="">
@@ -41,17 +41,8 @@ const About = () => {
           <li>MongoDB</li>
         </ul>
       </div>
-
-      <div className="w-[50%]">
-        <p className="text-[35px] hover:text-[#d9b264]">About Me</p>
-        <p className="pt-[40px] text-[28px] font-[200] hover:text-[orange]">
-          Hello, my name is Ijeoma Igbokwe. As of 2021, I graduated from the
-          southwestern University of Nigeria where I bagged a bachelor's degree
-          in Computer science and did my NYSC service in Bayelsa state of
-          Nigeria in 2023. Still pursuing my dreams, I'm currently a web
-          developer at Itskills Centre.
-        </p>
-      </div>
+<div><img src="/images/cartoon.png" alt=""/></div>
+ 
     </div>
   );
 };
