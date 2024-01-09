@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   // const navigate = useNavigate()
   return (
-    <div className="text-white relative flex flex-col items-center justify-center z-[10] bg-[#343D68] h-[50vw]" id="projects">
-      <p className="text-center mb-[60px] text-[40px]">My Projects</p>
+    <div className="text-white flex flex-col items-center justify-center w-100% bg-[#343D68] pb-[50px] lg:h-[50vw]" id="projects">
+      <p className="text-center mb-[60px] pt-[50px] lg:text-[40px]">My Projects</p>
 
-      <div className="flex justify-center gap-[70px]">
+      <div className="flex flex-wrap justify-center gap-[70px]">
         {projectData.map((project, id) => (
           <div className="border bg-[#262C4D]" key={id}>
             <p className=" w-[250px] h-[200px] border-[#0D54BE] bg-black opacity-[0.9] cursor-pointer">
