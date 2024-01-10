@@ -9,7 +9,7 @@ const LandingPage = () => {
       {/* <Snowfall color="orange" snowflakeCount={60} />
       <Snowfall color="blue" snowflakeCount={60} />
       <Snowfall color="red" snowflakeCount={60} /> */}
-      <div className="flex flex-col-reverse lg:flex-row pt-[180px] lg:px-[60px] h-[100%]  min-md:gap-[150px] lg:gap-[200px] items-center relative">
+      <div className="flex flex-col-reverse lg:flex-row pt-[100px] lg:pt-[180px] lg:px-[60px] h-[100%]  min-md:gap-[150px] lg:gap-[200px] items-center relative">
         <div className=" lg:text-[40px] px-[20px]  mt-[80px]">
           <p>
             Hi👋, <br />

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   // const navigate = useNavigate()
   return (
-    <div className="text-white flex flex-col items-center justify-center w-100% bg-[#343D68] pb-[50px] lg:h-[50vw]" id="projects">
+    <div className="text-white lg:h-[60vw] flex flex-col items-center justify-center w-100% bg-[#343D68] pb-[50px]" id="projects">
       <p className="text-center mb-[60px] pt-[50px] lg:text-[40px]">My Projects</p>
 
       <div className="flex flex-wrap justify-center gap-[70px]">
