@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <BrowserRouter>
       <div className="flex fixed w-[100%] lg:w-[100%] lg:justify-between bg-[white] items-center px-[70px] z-[9999] h-[90px] focus:hover:text-orange-500 border-b-[grey]">
-        <div className="lg:pl-[200px] ">LOGO</div>
+        <div className="lg:pl-[200px] "><i className="text-[navy]">Ijeoma</i></div>
         <div className="hidden lg:flex justify-around gap-[60px]" id="navbar">
           <Link to="#home" smooth>
             Home

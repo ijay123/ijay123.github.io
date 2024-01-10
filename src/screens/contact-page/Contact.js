@@ -19,7 +19,7 @@ const sendEmail = ()=>{
 
   return (
     <>
-      <p className="lg:text-[35px] pt-[50px] lg:pt-[150px] text-[25px] text-[red] lg:pb-[60px] bg-[#F7F6FB]">
+      <p className="lg:text-[35px] lg:text-center pt-[50px] lg:pt-[150px] text-[25px] text-[red] lg:pb-[60px] bg-[#F7F6FB]">
         Contact Me
       </p>
       <div
