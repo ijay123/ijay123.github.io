@@ -15,7 +15,7 @@ const Projects = () => {
             <p className=" w-[250px] h-[200px] border-[#0D54BE] bg-black opacity-[0.9] cursor-pointer">
               <img src={project.bg_img} alt="" className="bg-cover w-[100%] h-[100%]" />
             </p>
-            <p className="p-[15px]">{project.title}</p>
+            <p className="p-[15px] w-[250px]">{project.title}</p>
             <p>{project.description}</p>
             <a href={project.url}>
               <button className="bg-[#007DFC] px-[30px] py-[10px] flex justify-center rounded-[4px] items-center m-auto mb-[10px]">
