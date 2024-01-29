@@ -2,6 +2,7 @@ import React from "react";
 
 import Snowfall from "react-snowfall";
 import Typewriter from "typewriter-effect";
+import { FaGithub } from "react-icons/fa";
 
 const LandingPage = () => {
   return (
@@ -39,12 +40,12 @@ const LandingPage = () => {
           <img src="/images/port2.png" alt="" className="" />
         </div>
 
-        {/* <div className=" flex flex-col gap-[35px]">
-          <img src="/images/facebook.png" alt="" className="" />
-          <img src="/images/linkedin.png" alt="" />
-          <img src="/images/instagram.png" alt="" />
-          <img src="/images/twitter.png" alt="" />
-        </div> */}
+         <div className=" flex flex-col gap-[35px] text-[black] bg-[black] p-[10px]">
+         
+         <a href="www.linkedin.com/in/ijeoma-igbokwe-55a441198"><img src="/images/linkedin.png" alt="" /></a>
+         
+          <a href="https://github.com/ijay123?tab=repositories"><FaGithub className="text-[white] text-[24px]"/></a>
+        </div> 
       </div>
     </div>
   );

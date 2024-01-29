@@ -1,16 +1,8 @@
 const projectData = [
-  {
-    id: 1,
-    image: "",
-    title: "Ecommerce",
-    description: "",
-    bg_img: "/images/ecommerce.png",
-    bg: "transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300",
-    url: ""
-  },
+
 
   {
-    id: 2,
+    id: 1,
     image: "",
     title: "Colorlib landing-page",
     description: "",
@@ -19,7 +11,7 @@ const projectData = [
     url: "https://colorlib-landingpage.onrender.com"
   },
   {
-    id: 3,
+    id: 2,
     image: "",
     title: "Paystack landing-page",
     description: "",
@@ -28,7 +20,7 @@ const projectData = [
     url: "https://paystack-landingpage.onrender.com"
   },
   {
-    id: 4,
+    id: 3,
     image: "",
     title: "Expense-Tracker(full-stack)",
     description: "",
