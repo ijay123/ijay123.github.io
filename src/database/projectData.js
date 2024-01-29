@@ -32,7 +32,7 @@ const projectData = [
     image: "",
     title: "Expense-Tracker(full-stack)",
     description: "",
-    bg_img: "/images/elibrary.png",
+    bg_img: "/images/xtracker.png",
     bg: "",
     url: "https://expense-tracker-frontend-k79y.onrender.com"
   },
