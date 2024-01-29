@@ -32,7 +32,7 @@ const projectData = [
     image: "",
     title: "Expense-Tracker(full-stack)",
     description: "",
-    bg_img: "",
+    bg_img: "/images/elibrary.png",
     bg: "",
     url: "https://expense-tracker-frontend-k79y.onrender.com"
   },
@@ -41,7 +41,7 @@ const projectData = [
     image: "",
     title: "E-library Management system(full-stack)",
     description: "",
-    bg_img: "",
+    bg_img: "/images/elibrary.png",
     bg: "",
     url: "https://e-library-frontend-kgr0.onrender.com"
   },
