@@ -1,14 +1,37 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import React, {useState, useEffect} from "react";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
-
-
   const [state, handleSubmit] = useForm("mpzvpolb");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    setTimeout(() => {
+      return <p>Thanks for getting in touch!</p>;
+    }, 5000);
   }
+  const [showMessage, setShowMessage] = useState(false);
 
+  useEffect(() => {
+    if (state.succeeded) {
+      // Show the success message
+      setShowMessage(true);
+      
+      // Set a timer to hide the message or refresh the page after 5 seconds
+      const timerId = setTimeout(() => {
+        // Hide the message (if you want to stay on the page and just hide the message)
+        setShowMessage(false);
+
+        // Or refresh the page
+        window.location.reload();
+
+        // Or if using React Router for navigation in a SPA, you might navigate to a different route
+        // navigate('/thank-you'); // Uncomment and use this line if using React Router and you want to navigate
+
+      }, 5000);
+
+      // Cleanup function to clear the timer if the component unmounts
+      return () => clearTimeout(timerId);
+    }
+  }, [state.succeeded]); 
   return (
     <>
       <p className="lg:text-[35px] lg:text-center pt-[50px] lg:pt-[150px] text-[25px] text-[red] lg:pb-[60px] bg-[#F7F6FB]">
@@ -50,7 +73,6 @@ const Contact = () => {
                   name="message"
                   id="message"
                   type="text"
-                 
                   className="rounded-[5px] w-[80vw] lg:w-[480px] p-[5px]"
                 />
               </div>
@@ -63,6 +85,7 @@ const Contact = () => {
               </button>
             </div>
           </form>
+          {showMessage && <p className="text-[red] text-[30px]">Thanks for getting in touch!</p>}
         </div>
         <div>
           <img src="/images/contact.png" alt="" />
