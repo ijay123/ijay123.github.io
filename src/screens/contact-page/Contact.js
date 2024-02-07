@@ -64,6 +64,15 @@ const Contact = () => {
                     className=" rounded-[5px] h-[40px] pl-[10px]"
                   />
                 </span>
+                <span>
+                  <input
+                    placeholder="Email"
+                    name="email"
+                    type="email"
+                    id="email"
+                    className=" rounded-[5px] h-[40px] pl-[10px]"
+                  />
+                </span>
               </div>
               <div>
                 <textarea
