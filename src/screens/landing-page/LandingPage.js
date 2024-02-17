@@ -42,7 +42,7 @@ const LandingPage = () => {
 
          <div className=" flex flex-col gap-[35px] text-[black] bg-[black] p-[10px]">
          
-         <a href="www.linkedin.com/in/ijeoma-igbokwe-55a441198"><img src="/images/linkedin.png" alt="" /></a>
+         <a href="https://www.linkedin.com/in/ijeoma-igbokwe-55a441198/"><img src="/images/linkedin.png" alt="" /></a>
          
           <a href="https://github.com/ijay123?tab=repositories"><FaGithub className="text-[white] text-[24px]"/></a>
         </div> 
