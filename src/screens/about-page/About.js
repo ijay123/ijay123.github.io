@@ -4,6 +4,9 @@ import { IoLogoCss3 } from "react-icons/io";
 import { DiJavascript, DiNodejsSmall } from "react-icons/di";
 import { FaReact } from "react-icons/fa6";
 import { BiLogoTailwindCss } from "react-icons/bi";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const About = () => {
   return (
@@ -42,7 +45,9 @@ const About = () => {
               <DiNodejsSmall className="text-green-300 text-[35px]" />
               NodeJS
             </li>
-            <li>MongoDB</li>
+            <li className="flex items-center gap-[10px]"><SiMongodb className="text-[green]"/>MongoDB</li>
+            <li className="flex items-center gap-[10px]"><SiExpress className="text-[green]"/>Express.js</li>
+            <li className="flex items-center gap-[10px]"><SiTypescript className="text-[green]"/>TypeScript</li>
           </ul>
         </div>
         <div className="pb-[50px]">

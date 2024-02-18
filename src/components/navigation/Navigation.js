@@ -13,9 +13,9 @@ const Navigation = () => {
   const [bar, setBar] = useState(false) 
   return (
     <BrowserRouter>
-      <div className="flex fixed w-[100%] lg:w-[100%] justify-between lg:justify-between bg-[white] items-center px-[20px] lg:px-[70px] z-[9999] h-[90px] focus:hover:text-orange-500 border-b-[grey]">
+      <div className="flex fixed w-[100%] lg:w-[100%] justify-between bg-[white] items-center px-[20px] lg:px-[70px] z-[9999] h-[90px] focus:hover:text-orange-500 border-b-[grey]">
         <div className="lg:pl-[200px]">
-          <i className="text-[navy]">Ijeoma</i>
+          <i className="text-[navy]"><img src="/images/portfolio-link.png" className="w-[30px]" alt=""/></i>
         </div>
         <div className="hidden lg:flex justify-around gap-[60px]" id="navbar">
           <Link to="#home" smooth>
