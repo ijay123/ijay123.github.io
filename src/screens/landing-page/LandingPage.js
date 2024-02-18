@@ -10,8 +10,8 @@ const LandingPage = () => {
       {/* <Snowfall color="orange" snowflakeCount={60} />
       <Snowfall color="blue" snowflakeCount={60} />
       <Snowfall color="red" snowflakeCount={60} /> */}
-      <div className="flex flex-col-reverse lg:flex-row pt-[100px] lg:pt-[180px] lg:px-[60px] h-[100%]  min-md:gap-[150px] lg:gap-[200px] items-center relative">
-        <div className=" lg:text-[40px] px-[20px]  mt-[80px]">
+      <div className="flex flex-col-reverse lg:flex-row lg:pl-[200px] pt-[100px] lg:pt-[180px] lg:px-[60px] h-[100%]  min-md:gap-[150px] lg:gap-[200px] ml-auto mr-auto items-center">
+        <div className=" lg:text-[40px] lg:w-[60vw] lg:px[0px] px-[20px] mt-[80px]">
           <p>
             Hi👋, <br />
             My name is Ijeoma Igbokwe. <br />
@@ -21,7 +21,7 @@ const LandingPage = () => {
                   autoStart: true,
                   loop: true,
                   delay: 50,
-                  strings: ["I'm a Web Developer.", "MERN stack"],
+                  strings: ["I'm a Full stack Developer.", "MERN stack"],
                 }}
               />
             </span>
@@ -36,16 +36,17 @@ const LandingPage = () => {
           </p>
         </div>
 
-        <div>
+        <div className="flex lg:flex-row flex-col w-[100vw] ">
           <img src="/images/port2.png" alt="" className="" />
-        </div>
-
-         <div className=" flex flex-col gap-[35px] text-[black] bg-[black] p-[10px]">
+          <div className="flex flex-row lg:flex-col gap-[35px] text-[black] bg-[grey] p-[10px]">
          
          <a href="https://www.linkedin.com/in/ijeoma-igbokwe-55a441198/"><img src="/images/linkedin.png" alt="" /></a>
          
           <a href="https://github.com/ijay123?tab=repositories"><FaGithub className="text-[white] text-[24px]"/></a>
         </div> 
+        </div>
+
+       
       </div>
     </div>
   );
