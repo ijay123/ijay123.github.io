@@ -13,6 +13,16 @@ const projectData = [
   {
     id: 2,
     image: "",
+    title: "E-Commerce website(full-stack)",
+    description: "",
+    bg_img: "/images/ecommerce.png",
+    bg: "",
+    url: "https://ecommerce-zlzs.onrender.com"
+  },
+
+  {
+    id: 3,
+    image: "",
     title: "Task-App(full-stack)",
     description: "",
     bg_img: "/images/task-app.png",
@@ -21,7 +31,7 @@ const projectData = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: "",
     title: "Expense-Tracker(full-stack)",
     description: "",
@@ -32,7 +42,7 @@ const projectData = [
 
 
   {
-    id: 4,
+    id: 5,
     image: "",
     title: "Colorlib landing-page",
     description: "",
@@ -41,7 +51,7 @@ const projectData = [
     url: "https://colorlib-landingpage.onrender.com"
   },
   {
-    id: 5,
+    id: 6,
     image: "",
     title: "Paystack landing-page",
     description: "",
