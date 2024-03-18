@@ -17,7 +17,7 @@ const projectData = [
     description: "",
     bg_img: "/images/ecommerce.png",
     bg: "",
-    url: "https://ecommerce-zlzs.onrender.com"
+    url: "https://ecommerce-website-u2ct.onrender.com"
   },
 
   {
