@@ -17,17 +17,17 @@ const Navigation = () => {
         <div className="lg:pl-[200px]">
           <i className="text-[navy]"><img src="/images/portfolio-link.png" className="w-[30px]" alt=""/></i>
         </div>
-        <div className="hidden lg:flex justify-around gap-[60px]" id="navbar">
-          <Link to="#home" smooth>
+        <div className="hidden lg:flex justify-around gap-[60px] " id="navbar">
+          <Link to="#home" className="hover:text-blue-600" smooth>
             Home
           </Link>
-          <Link to="#about" smooth>
+          <Link to="#about" className="hover:text-blue-600"  smooth>
             About
           </Link>
-          <Link to="#projects" smooth>
+          <Link to="#projects" className="hover:text-blue-600"  smooth>
             Projects
           </Link>
-          <Link to="#contact" smooth>
+          <Link to="#contact" className="hover:text-blue-600"  smooth>
             Contact
           </Link>
         </div>
