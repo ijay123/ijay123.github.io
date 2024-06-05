@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { useForm } from "@formspree/react";
+import { MdDriveFileRenameOutline } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mpzvpolb");
@@ -46,31 +48,34 @@ const Contact = () => {
           <form onSubmit={handleSubmit} className="lg:w-[500px]">
             <div className="flex flex-col gap-[25px] w-[40%]">
               <div className="flex flex-col lg:flex-row mt-[20px] gap-[20px] w-[100%]">
-                <span>
+                <span className=" flex items-center gap-[10px] rounded-[5px] bg-white px-2">
+                  <MdDriveFileRenameOutline/>
                   <input
                     placeholder="First Name"
                     id="firstName"
                     type="text"
                     name="firstName"
-                    className="rounded-[5px] h-[40px] pl-[10px]"
+                    className="rounded-[5px] h-[40px] pl-[10px] outline-none"
                   />
                 </span>
-                <span>
+                <span className=" flex items-center gap-[10px] rounded-[5px] bg-white px-2">
+                  <MdDriveFileRenameOutline/>
                   <input
                     placeholder="Surname"
                     name="surName"
                     type="text"
                     id="surName"
-                    className=" rounded-[5px] h-[40px] pl-[10px]"
+                    className=" rounded-[5px] h-[40px] pl-[10px] outline-none"
                   />
                 </span>
-                <span>
+                <span className=" flex items-center gap-[10px] rounded-[5px] bg-white px-2">
+                  <MdOutlineMailOutline/>
                   <input
                     placeholder="Email"
                     name="email"
                     type="email"
                     id="email"
-                    className=" rounded-[5px] h-[40px] pl-[10px]"
+                    className=" rounded-[5px] h-[40px] pl-[10px] outline-none"
                   />
                 </span>
               </div>
@@ -82,7 +87,7 @@ const Contact = () => {
                   name="message"
                   id="message"
                   type="text"
-                  className="rounded-[5px] w-[80vw] lg:w-[480px] p-[5px]"
+                  className="rounded-[5px] w-[80vw] lg:w-[480px] p-[5px] outline-none"
                 />
               </div>
               <button

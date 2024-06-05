@@ -1,13 +1,13 @@
 import React from "react";
 import projectData from "../../database/projectData";
-import { Link } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
+
+
 
 const Projects = () => {
   // const navigate = useNavigate()
   return (
-    <div className="text-white lg:h-[60vw] flex flex-col items-center justify-center w-100% bg-[#343D68] pb-[50px]" id="projects">
-      <p className="text-center mb-[60px] pt-[50px] lg:text-[40px]">My Projects</p>
+    <div className="text-white lg:min-h-[60vw] flex flex-col items-center justify-center w-100% bg-[#343D68] pb-[50px]" id="projects">
+      <p className="text-center mb-[60px] text-[30px] lg:pb-[100px] lg:pt-[150px] pt-[50px] lg:text-[50px]">My Projects</p>
 
       <div className="flex flex-wrap justify-center gap-[70px]">
         {projectData.map((project, id) => (

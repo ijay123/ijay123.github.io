@@ -7,13 +7,14 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const About = () => {
   return (
     <div className="lg:h-[70vw] lg:justify-center pt-[100px] lg:pt-[200px] flex flex-col  bg-[#F7F6FB] lg:items-center">
       {" "}
       {/* <p className=" text-[30px] pl-[10px] pt-[100px] lg:pb-[40px] bg-[#F7F6FB]">My Skills</p> */}
-      <p className="text-[30px] pl-[10px] pb-[50px] bg-[#F7F6FB] lg:px-[60px]">My Skills</p>
+      <p className="lg:text-[60px] text-[30px] pl-[10px] pb-[30px] bg-[#F7F6FB] lg:px-[60px]">My Skills</p>
       <div
         className=" flex flex-wrap flex-col-reverse justify-center items-center lg:min-h-[100vh] w-[100%] lg:gap-[200px] lg:px-[60px] bg-[#F7F6FB]"
         id="about"
@@ -48,6 +49,7 @@ const About = () => {
             <li className="flex items-center gap-[10px]"><SiMongodb className="text-[green]"/>MongoDB</li>
             <li className="flex items-center gap-[10px]"><SiExpress className="text-[green]"/>Express.js</li>
             <li className="flex items-center gap-[10px]"><SiTypescript className="text-[green]"/>TypeScript</li>
+            <li className="flex items-center gap-[10px]"><TbBrandNextjs className="text-[green]"/>NextJs</li>
           </ul>
         </div>
         <div className="pb-[50px]">
