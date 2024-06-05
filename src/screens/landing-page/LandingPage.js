@@ -37,17 +37,23 @@ const LandingPage = () => {
         </div>
 
         <div className="flex lg:flex-row flex-col w-[100vw] z-[1]">
-          <img src="/images/WhatsApp Image 2024-01-09 at 18.38.33.jpeg" alt="" className="" />
+          <img
+            src="/images/WhatsApp Image 2024-01-09 at 18.38.33.jpeg"
+            alt=""
+            className=""
+          />
           <div className="flex flex-row lg:flex-col gap-[35px] text-[black] bg-[grey] p-[10px]">
-         
-         <a href="https://www.linkedin.com/in/ijeoma-igbokwe-55a441198/"><img src="/images/linkedin.png" alt="" /></a>
-         
-          <a href="https://github.com/ijay123?tab=repositories"><FaGithub className="text-[white] text-[24px]"/></a>
-        </div> 
-        </div>
+            <a href="https://www.linkedin.com/in/ijeoma-igbokwe-55a441198/">
+              <img src="/images/linkedin.png" alt="" />
+            </a>
 
-       
+            <a href="https://github.com/ijay123?tab=repositories">
+              <FaGithub className="text-[white] text-[24px]" />
+            </a>
+          </div>
+        </div>
       </div>
+     
     </div>
   );
 };
