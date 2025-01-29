@@ -31,7 +31,12 @@ const Navigation = () => {
           <Link to="#contact" className="hover:text-blue-600" smooth>
             Contact
           </Link>
-          <a href="https://docs.google.com/document/d/1qK-cpxePkbyTbZ3YgmUOL3hhsod2ARJvk2KrNRvxFZ0/edit?usp=sharing" className="text-[orange] border p-[4px] bg-[green] rounded-[10px]">CV</a>
+          <a
+            href="https://docs.google.com/document/d/1qK-cpxePkbyTbZ3YgmUOL3hhsod2ARJvk2KrNRvxFZ0/edit?usp=sharing"
+            className="text-[orange] border p-[4px] bg-[green] rounded-[10px]"
+          >
+            CV
+          </a>
         </div>
         <div className="lg:hidden" onClick={() => setBar(!bar)}>
           <FiMenu />
@@ -50,6 +55,12 @@ const Navigation = () => {
             <Link to="#contact" smooth>
               Contact
             </Link>
+            <a
+              href="https://docs.google.com/document/d/1qK-cpxePkbyTbZ3YgmUOL3hhsod2ARJvk2KrNRvxFZ0/edit?usp=sharing"
+              className="text-[orange] border py-[4px] px-[8px] bg-[green] rounded-[10px] justify-center items-center flex"
+            >
+              CV
+            </a>
           </div>
         )}
       </div>
